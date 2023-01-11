@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: url("lobster-regular.woff2") format('woff2'),
+         url("lobster-regular.woff") format('woff')
+}
+/* This script is dedicated to some ignorant EU legislators and one ignorant
+German judge who set an absurd precedent by ruling Google Fonts GDPR-incompliant
+which made life for website owners and developers so much more difficult and
+confusing. The world would have been a better place without you. */
+

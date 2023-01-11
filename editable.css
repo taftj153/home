@@ -1,0 +1,201 @@
+/*** editable ***/
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #565656;
+}
+
+/* general content areas */
+
+.mz_editable {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #565656;
+}
+
+/* font size classes for editable content */
+
+.mz_editable .moze-tiny       { font-size: 0.75rem; }
+.mz_editable .moze-small      { font-size: 0.88rem; }
+.mz_editable .moze-normal     { font-size: 0.94rem; }
+.mz_editable .moze-large      { font-size: 1.13rem; }
+.mz_editable .moze-huge       { font-size: 1.25rem; }
+.mz_editable .moze-gigantic   { font-size: 1.56rem; }
+
+
+/* hyperlinks */
+
+a,
+.mz_editable a {
+    color: #FD4B4A;
+}
+
+a:hover,
+.mz_editable a:hover {
+    color: #AE9388;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mz_editable a:hover {
+    text-decoration: none;
+}
+
+/* bullet list in editable text */
+
+.mz_editable ul li {
+    list-style-type: square;
+}
+
+/* headings in editable text */
+
+.mz_editable h1,
+.mz_editable h1.moze-megatitle {
+    font-size: 3.00rem;
+    color: #4D3628;
+    letter-spacing: -0.02em;
+    font-family: Lobster, Arial, Helvetica, sans-serif;
+}
+
+.moze-megatitle {
+    font-size: 3.44rem !important;
+}
+
+.mz_editable h2,
+.sidebox h2 {
+    font-size: 1.63rem;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #4D3628;
+    letter-spacing: -0.01em;
+}
+
+.mz_editable h3 {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 1.31rem;
+    font-weight: normal;
+    font-weight: 300;
+    color: #AE9388;
+}
+
+.mz_editable .moze-code {
+    border-radius: 4px;
+}
+
+/* user inserted pictures */
+
+.mz_editable img {
+    border-radius: 4px;
+    display: block;
+    max-width: 100%;
+}
+
+/* image galleries */
+
+ul.moze-gallery li {
+    border-radius: 4px;
+}
+
+/* webforms */
+
+.moze-form label {
+    color: #111111;
+}
+
+.moze-form input,
+.moze-form select,
+.moze-form textarea {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    border: 1px solid #CFCFCF;
+    box-shadow: inset 1px 1px 3px -1px #808080;
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+.moze-form .moze-formbutton {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    box-shadow: none;
+}
+
+.moze-button,
+.moze-button-large,
+.moze-form .moze-formbutton {
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 4px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.moze-button,
+.moze-button-large,
+.mz_editable .moze-button,
+.mz_editable .moze-button-large,
+.mz_editable .moze-button:not(.btn-alt) *,
+.mz_editable .moze-button-large:not(.btn-alt) *,
+.moze-form .moze-formbutton {
+    color: #FD4B4A;
+}
+
+.moze-button:hover,
+.moze-button-large:hover,
+.mz_editable .moze-button:hover,
+.mz_editable .moze-button-large:hover,
+.mz_editable .moze-button:not(.btn-alt):hover *,
+.mz_editable .moze-button-large:not(.btn-alt):hover *,
+.moze-form .moze-formbutton:hover  {
+    color: #AE9388;
+}
+
+/* Button styles for custom button designs */
+
+.moze-button-large,
+.moze-button-large[class*=btn-],
+.bigbar-overlay-buttons .moze-button-large.btn-alt {
+    border: 1px solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.moze-button-large.btn-alt,
+.moze-button-large.btn-white,
+.bigbar-overlay-buttons .moze-button-large:not([class*=btn-]) {
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.moze-button.btn-alt {
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* Button colors for custom button designs */
+
+.moze-button.btn-alt,
+:not(.bigbar-overlay-buttons) > .moze-button-large.btn-alt,
+.bigbar-overlay-buttons .moze-button-large:not([class*=btn-]) {
+    color: #FFFFFF;
+    background-color: #FD4B4A;
+}
+
+.moze-button.btn-alt:hover,
+:not(.bigbar-overlay-buttons) > .moze-button-large.btn-alt:hover,
+.bigbar-overlay-buttons .moze-button-large:hover:not([class*=btn-]) {
+    color: #FFFFFF;
+    background-color: #AE9388;
+}
+
+.moze-button-large.btn-alt-light {
+    color: #FFFFFF;
+    border-color: #FD4B4A;
+}
+
+.moze-button-large.btn-alt-light:hover {
+    color: #FFFFFF;
+    border-color: #AE9388;
+}

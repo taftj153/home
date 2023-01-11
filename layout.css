@@ -1,0 +1,266 @@
+/*** layout ***/
+
+body {
+    background: url("triangle-pattern.svg") no-repeat center center;
+    background-size: cover;
+    background-color: #EDE6DF;
+}
+
+#top {
+    background-color: transparent;
+}
+
+#header {
+    color: black;
+    text-align: center;
+}
+
+.section-banner .container {
+    padding: 0px !important;
+}
+
+#title {
+    margin: 12px 0;
+}
+
+.header-menu-center #title {
+    margin-bottom: 25px;
+}
+
+#title .mz_wysiwyg {
+    font-family: Lobster, Arial, Helvetica, sans-serif;
+    font-size: 4.38rem;
+    color: #4D3628;
+    letter-spacing: -2px;
+    line-height: 1.2;
+}
+
+#toptext .mz_wysiwyg * {
+    color: #AE9388;
+}
+
+#wrap {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#bottom .mz_wysiwyg {
+    color: #ae9388;
+    float: none;
+}
+
+#bottom a {
+    text-decoration: underline
+}
+
+#bottom a, #bottom a:hover  {
+    color: #FD4B4A;
+}
+
+#bottom .mz_social a {
+    fill: #FD4B4A;
+}
+
+#social {
+    float: none;
+    clear: both;
+    margin-left: 0px;
+}
+
+/* section colors */
+
+.section-bg-1 {
+    background-color: #f8f5f2;
+}
+
+.section-bg-2 {
+    background-color: #ae9388;
+}
+
+.section-bg-3 {
+    background-color: #4d3628;
+}
+
+/* language select */
+
+#languages li > a {
+    font-size: 0.88rem;
+    color: #AE9388;
+}
+
+#languages li.selected > a,
+#languages li > a:hover {
+    color: #FD4B4A;
+}
+
+/* menu */
+
+#menu ul li a {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#menu > ul > li > a:hover, #menu > ul > li.selected > a {
+    color: #FD4B4A;
+}
+
+#menu > ul > li > a {
+    color: #ae9388;
+    padding: 0.60rem 0.94rem;
+}
+
+#menu ul ul {
+    border-radius: 0;
+    padding: 0;
+    box-shadow: 1px 1px 10px -1px #636363;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#menu ul ul li:hover {
+    border: 0;
+}
+
+#menu ul ul li a {
+    padding: 15px 20px;
+    color: #111111;
+}
+
+#menu ul ul li a:hover {
+    color: #FD4B4A;
+}
+
+@media screen and (max-width: 750px) {
+    #menu ul li a {
+        font-size: 17px;
+    }
+}
+
+#menu {
+    padding: 0px !important;
+    margin: 2px 0px;
+    text-transform: uppercase;
+    margin-left: -0.94rem;
+    margin-right: -0.94rem;
+}
+
+/* submenu */
+
+#submenu a {
+    color: #AE9388;
+    font-weight: 300;
+    text-transform: uppercase
+}
+
+#submenu li.selected > a,
+#submenu li:hover > a {
+    color: #FD4B4A;
+}
+
+/* special boxes - bigbar */
+
+#bigbar {
+    position: relative;
+}
+
+#bigbar div.moze-banner {
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.bigbar-overlay-container {
+    position: relative;
+    min-height: 488px;
+    padding: 40px;
+}
+
+#bigbar-overlay {
+    background-color: rgba(133, 206, 78, 0.85);
+    border-radius: 4px;
+}
+
+.mz_rtl #bigbar-overlay {
+    left: auto;
+    right: 0px;
+}
+
+.bigbar-h1 .mz_wysiwyg {
+    font-family: Lobster, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 2.8rem;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.bigbar-h2 .mz_wysiwyg {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+#bigbar .mz_editable h1 {
+    margin: 0px;
+    color: black;
+}
+#bigbar .mz_editable p {
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .bigbar-h1 .mz_wysiwyg {
+        font-size: 2.2rem;
+    }
+
+    .bigbar-h2 .mz_wysiwyg {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    #bigbar-overlay {
+        border-radius: 0;
+        margin: 0;
+    }
+
+    #title .mz_wysiwyg {
+        font-size: 3.44rem;
+    }
+
+}
+
+.editbar {
+    width: auto;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.thebutton {
+    background: -moz-linear-gradient(center top , #468FD1 0%, #2067A9 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #257BC9;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 0 #75ACDD inset, 1px 1px 3px -1px #666666;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 44px;
+    min-width: 175px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #555555;
+}

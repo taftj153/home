@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url("lato-regular.woff2") format('woff2'),
+         url("lato-regular.woff") format('woff')
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: url("lato-italic.woff2") format('woff2'),
+         url("lato-italic.woff") format('woff')
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url("lato-700.woff2") format('woff2'),
+         url("lato-700.woff") format('woff')
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: url("lato-700italic.woff2") format('woff2'),
+         url("lato-700italic.woff") format('woff')
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    src: url("lato-500.woff2") format('woff2'),
+         url("lato-500.woff") format('woff')
+}
+/* This script is dedicated to some ignorant EU legislators and one ignorant
+German judge who set an absurd precedent by ruling Google Fonts GDPR-incompliant
+which made life for website owners and developers so much more difficult and
+confusing. The world would have been a better place without you. */
+
